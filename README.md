@@ -2,9 +2,9 @@
 Building an end-to-end data warehouse using SQL Server, covering data integration, ETL pipelines, data modeling, and analytics.
 
 Data Warehouse and Analytics Project repository! 🚀
-
+-
 This project showcases an end-to-end data engineering and data analytics solution, from designing and building a data warehouse to transforming data into meaningful business insights. It follows industry-standard practices in data engineering, data modeling, and analytics.
----
+
 
 # 📖 Project Overview
 
