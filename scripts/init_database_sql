@@ -1,0 +1,46 @@
+```sql
+/*
+=============================================================
+Database and Schema Initialization
+=============================================================
+Script Overview:
+    This script initializes a database called 'DataWarehouse'.
+    If a database with this name already exists, it will be removed
+    and created again. It also defines three schemas within the
+    database: 'bronze', 'silver', and 'gold'.
+
+IMPORTANT:
+    Executing this script will permanently delete the existing
+    'DataWarehouse' database, including all its tables and stored data.
+    Make sure you have backed up any important information before
+    running this script.
+*/
+
+USE master;
+GO
+
+-- Remove the existing 'DataWarehouse' database if it is present
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+BEGIN
+    ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE DataWarehouse;
+END;
+GO
+
+-- Initialize a fresh 'DataWarehouse' database
+CREATE DATABASE DataWarehouse;
+GO
+
+USE DataWarehouse;
+GO
+
+-- Define the Bronze, Silver, and Gold schemas
+CREATE SCHEMA bronze;
+GO
+
+CREATE SCHEMA silver;
+GO
+
+CREATE SCHEMA gold;
+GO
+```
