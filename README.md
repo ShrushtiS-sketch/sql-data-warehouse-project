@@ -22,7 +22,7 @@ This project focuses on developing an end-to-end data warehouse and analytics so
 - **SQL Server and SSMS:** Refer to the `00_setup` folder for installation links and configuration instructions.
 - **[GitHub](https://github.com/):** Manage version control and maintain the project repository.
 - **[draw.io](https://www.drawio.com/):** Create data warehouse architecture diagrams and data models.
-- **[Notion Template](https://www.notion.com/templates/sql-data-warehouse-project):** Use the project planning template to organize tasks and track progress.
+- **[Notion Template](https://app.notion.com/p/Data-Warehouse-Project-40322e131def80bf8789f0c86b60caac?source=copy_link):** Use the project planning template to organize tasks and track progress.
 - **[Project Roadmap](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Follow the project phases, activities, and implementation steps.
 
 ---
